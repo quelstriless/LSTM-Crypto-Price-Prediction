@@ -32,7 +32,7 @@ To learn more about the Binance API and how to create API keys, visit: [Binance 
 2. Edit the script to include your API keys.
 3. Run the script:
     ```sh
-    python script_name.py
+    python newmain.py
     ```
 
 ## Results
