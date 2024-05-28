@@ -42,7 +42,9 @@ To learn more about the Binance API and how to create API keys, visit: [Binance 
     ```
 ## Results
 
+## LTSM
 ![LTSM Prediction](https://github.com/quelstriless/LSTM-Crypto-Price-Prediction/assets/71846076/b47d9e03-7fab-43b5-b3ca-5ea01a91a0b3)
+## Transformers
 ![Transformers Prediction](https://github.com/quelstriless/LSTM-Crypto-Price-Prediction/assets/71846076/ae4ee00f-779b-4c0e-901c-92af4d150fed)
 
 The above plot shows the predicted future prices of RUNE/USDT.
