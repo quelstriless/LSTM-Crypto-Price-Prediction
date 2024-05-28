@@ -1,10 +1,8 @@
-# LSTM-Crypto-Price-Prediction
-
-Using Long Short-Term Memory (LSTM) to predict future prices of RUNE/USDT using historical data and technical indicators like SMA, EMA, MACD, and RSI.
+# Transformers vs LSTM for Stock Price Prediction
 
 ## Overview
 
-This project utilizes a machine learning model (LSTM) to forecast the future prices of the RUNE/USDT trading pair. The model is trained using historical price data and technical indicators to improve its predictive accuracy.
+Using Long Short-Term Memory (LSTM) and Transformers Models to predict future prices of RUNE/USDT using historical data and technical indicators like SMA, EMA, MACD, and RSI.
 
 ## Data Source
 
@@ -17,7 +15,7 @@ To learn more about the Binance API and how to create API keys, visit: [Binance 
 1. Clone the repository:
     ```sh
     git clone https://github.com/quelstriless/LSTM-Crypto-Price-Prediction.git
-    cd LSTM-Crypto-Price-Prediction
+    cd LSTM-Transformers-Price-Prediction
     ```
 
 2. Create a virtual environment and activate it:
@@ -26,18 +24,26 @@ To learn more about the Binance API and how to create API keys, visit: [Binance 
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
     
-## Usage
+## Usage LTSM
 
 1. Ensure you have your Binance API keys.
 2. Edit the script to include your API keys.
 3. Run the script:
     ```sh
-    python newmain.py
+    python LTSM-Model.py
     ```
+## Usage Transformers
 
+1. Ensure you have your Binance API keys.
+2. Edit the script to include your API keys.
+3. Run the script:
+    ```sh
+    python Transformers-Model.py
+    ```
 ## Results
 
-![Future Price Prediction](https://github.com/quelstriless/LSTM-Crypto-Price-Prediction/assets/71846076/b47d9e03-7fab-43b5-b3ca-5ea01a91a0b3)
+![LTSM Prediction](https://github.com/quelstriless/LSTM-Crypto-Price-Prediction/assets/71846076/b47d9e03-7fab-43b5-b3ca-5ea01a91a0b3)
+![Transformers Prediction](https://github.com/quelstriless/LSTM-Crypto-Price-Prediction/assets/71846076/ae4ee00f-779b-4c0e-901c-92af4d150fed)
 
 The above plot shows the predicted future prices of RUNE/USDT.
 
