@@ -15,7 +15,7 @@ To learn more about the Binance API and how to create API keys, visit: [Binance 
 1. Clone the repository:
     ```sh
     git clone https://github.com/quelstriless/LSTM-Crypto-Price-Prediction.git
-    cd LSTM-Transformers-Price-Prediction
+    cd LSTM-Transformers-PricePredictionComparison
     ```
 
 2. Create a virtual environment and activate it:
